@@ -1,0 +1,145 @@
+
+/* ---------  adminLogin css  ---------*//* ---------  adminLogin css  ---------*/
+.admin_login_bg {
+    /* The image used */
+    /* background-image: url("../img/bg_login.jpg"); */
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+    position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      max-width: 100%;
+      max-height: 100%;
+      margin: auto;
+      overflow: auto;
+      -webkit-filter: blur(0px); /* Safari 6.0 - 9.0 */
+      filter: blur(0px);
+      background-color: #3949ab;
+  }
+  .footerlogin{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 30px;
+    line-height: 30px; /* Vertically center the text there */
+    background-color: #101517a1;
+    color: #f5f5f5;
+  }
+  .signin {
+    background-color: #312e2ee0;
+    
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  
+  .login {
+    position: relative;
+    height: 500px;
+    /* width: 405px; */
+    
+    padding: 60px 60px;
+    background-color:#312e2ee0;   
+    background-size: cover;
+    box-shadow: 0px 30px 60px -5px #000;
+    margin-top: 100px;
+      margin-right: 0px;
+      margin-bottom: auto;
+      margin-left: auto;
+  }
+  
+  .form_login {
+    padding-top: 20px;
+  }
+  
+  .active {
+    border-bottom: 2px solid #1161ed;
+  }
+  
+  .nonactive {
+    color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .h2_login {
+    padding-left: 12px;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    letter-spacing: 2px;
+    display: inline-block;
+    font-weight: 100;
+  }
+  
+  .h2_login:first-child {
+    padding-left: 0px;
+  }
+  
+  .signin {
+    background-color: #1161ed;
+    color: #FFF;
+    width: 100%;
+    padding: 10px 20px;
+    display: block;
+    height: 39px;
+    border-radius: 20px;
+    margin-top: 30px;
+    transition: all 0.2s ease-in-out;
+    border: none;
+    text-transform: uppercase;
+  }
+  
+  .signin:hover {
+    background: #4082f5;
+    box-shadow: 0px 4px 35px -5px #4082f5;
+    cursor: pointer;
+  }
+  
+  .signin:focus {
+    outline: none;
+  }
+  .back {
+    background-color: red;
+    color: #FFF;
+    width: 100%;
+    padding: 10px 20px;
+    display: block;
+    height: 39px;
+    border-radius: 20px;
+    margin-top: 20px;
+    transition: all 0.5s ease-in-out;
+    border: none;
+    text-transform: uppercase;
+  }
+  
+  .back:hover {
+    background: #ef8600;
+    box-shadow: 0px 4px 35px -5px #a4bde9;
+    cursor: pointer;
+  }
+  
+  .back:focus {
+    outline: none;
+  }
+  .logo_login {
+    position: relative;
+    top: 250px;
+    width: 150%;
+    z-index: 2;
+  
+  }
+  .logo_shadow{
+    -webkit-filter: drop-shadow(10px 5px 5px rgb(0, 0, 0));
+    filter: drop-shadow(10px 5px 5px rgb(0, 0, 0));
+  }
+  
+  

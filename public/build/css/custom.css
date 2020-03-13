@@ -1,0 +1,346 @@
+#overlay {   
+    /* position: absolute;  
+    top: 0px;   
+    left: 0px;  
+    background: rgb(226, 222, 222);   
+    width: 100%;   
+    height: 100%;   
+    opacity: .75;   
+    filter: alpha(opacity=75);   
+    -moz-opacity: .75;  
+    z-index: 999;   */
+    /* background: #fff url(../img/loadingGif/circle-slack-loading-icon.gif) 50% 50% no-repeat; */
+    /* transition-duration: 5s;
+    transition-delay: 2s; */
+}
+.sidebar #viewless {
+    width: 2.5rem;
+    height: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
+  .sidebar-dark #viewless {
+    background-color: rgba(255,255,255,.2);
+}
+@media (min-width: 1200px){
+.container-fullwidth {
+    max-width: 1140px;
+}
+}
+body {
+    font-family: 'Prompt', sans-serif;
+    color: #000000;
+  }
+  table.dataTable tbody tr.selected {
+    background-color: rgb(184, 245, 211);
+}
+.form-control {
+    color: #262629;
+}
+.table {
+    color: #2c2d38;
+}
+.model_concern{
+    width: 1202.2px !important;
+}
+.badge {
+    font-size: 90%;
+}
+.bg-sideleft{
+        background-color: #ffffff;
+}
+.sidebar-brand {
+    color: #381d1d;
+    /* background-color: #fffffffa; */
+    background-color:     #fbfbfb;;
+}
+.sidebar-dark .nav-item .nav-link {
+    color: rgb(0, 0, 0);
+}
+.bg-gradient-primary {
+    /* background-color: #222d32; */
+    /* background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #94A4FC), to(#ABD2F7));
+    background-image: linear-gradient(180deg, #e0e5ff 10%, #a6c0fd 100%);
+    background-size: cover; */
+    background: url("../img/bg_login.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  .sidebar-light .nav-item.active .nav-link {
+    color: #0d0e13;
+}
+.sidebar-light .nav-item .nav-link i {
+    color: #153a63;
+}
+.sidebar-light .nav-item .nav-link {
+    color: #4c4f5f;
+}
+.sidebar-light .sidebar-heading {
+    color: #5e617b;
+}
+.sidebar-light hr.sidebar-divider {
+    border-top: 1px solid #162975;
+}
+@media (min-width: 768px){
+    .sidebar .nav-item .nav-link {
+        display: block;
+        width: 100%;
+        text-align: left;
+        padding: 0.5rem;
+        width: 13rem;
+    }
+}
+/* Alert box */
+.alert{
+    position: fixed;
+  /* width: 100px; */
+  height: 100px;
+  /* bottom: 0; */
+  /* left: 0; */
+  right: 0;
+  top:0;
+  z-index: 99999;
+}
+.alert-success {
+    color: #ffffff;
+    background-color: #169b33;
+    border-color: #bff0de;
+  }
+  .topbar {
+    height: 2.475rem;
+}
+p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+footer.sticky-footer {
+    padding: 1rem 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+body {
+    /* margin: 0; */
+    /* font-family: Nunito,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; */
+    font-size: 0.9rem;
+}
+#wrapper #content-wrapper {
+    background-color: #ffffff;
+}
+.skin-blue  {
+    background-color: #3c8dbc;
+}
+.skin-custom  {
+    background-color: #3e4042;
+}
+.sidebar-light .nav-item .nav-link:active, .sidebar-light .nav-item .nav-link:focus, .sidebar-light .nav-item .nav-link:hover {
+    color: #0b5bd3;
+}
+@media (min-width: 768px){
+    .sidebar .nav-item .nav-link span {
+        font-size: .75rem;
+        display: inline;
+    }
+}
+.sidebar-dark .sidebar-heading {
+    color: rgb(13, 228, 208);
+}
+@media (min-width: 768px){
+    .sidebar .sidebar-heading {
+        text-align: center;
+    }
+}
+.card {
+    border: 1px solid #c4c3c3;
+    border-radius: .35rem;
+}
+.dt-button{
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 0.7rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000000;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #d1d3e2;
+    border-radius: .35rem;
+    -webkit-transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+}
+.dt-button :hover{
+    color: #4a27ac;
+}
+th.rotate {
+    /* Something you can count on */
+    height: 70px;
+    white-space: nowrap;
+  }
+  
+  th.rotate > div {
+    transform: 
+      /* Magic Numbers */
+      /* translate(25px, 51px) */
+      /* 45 is really 360 - 45 */
+      rotate(270deg);
+    width: 30px;
+  }
+  th.rotate > div > span {
+    /* border-bottom: 1px solid #ccc; */
+    padding: 5px 10px;
+  }
+  .hidden_max {
+    display: none!important;
+}
+.bg-monthly-sunday{
+    background-color: #ff894414;
+}
+.dt-button-info{
+        position: fixed;
+  /* width: 100px; */
+  height: 100px;
+  /* bottom: 0; */
+  /* left: 0; */
+  font-size: 1rem;
+  right: 0;
+  top:10px;
+  z-index: 99999;
+  color: #000000;
+  /* background-color: #767c78; */
+}
+.dt-button-info h2{
+font-size: 2rem;
+}
+
+/*     Check box css */
+.material-switch > input[type="checkbox"] {
+    display: none;   
+  }
+  
+  .material-switch > label {
+    cursor: pointer;
+    height: 0px;
+    position: relative; 
+    width: 40px;  
+    background-color: #1fd215;
+  }
+  
+  .material-switch > label::before {
+    background: rgb(0, 0, 0);
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    content: '';
+    height: 16px;
+    margin-top: -8px;
+    position:absolute;
+    opacity: 0.3;
+    transition: all 0.4s ease-in-out;
+    width: 40px;
+  }
+  .material-switch > label::after {
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    content: '';
+    height: 24px;
+    left: -4px;
+    margin-top: -8px;
+    position: absolute;
+    top: -4px;
+    transition: all 0.3s ease-in-out;
+    width: 24px;
+  }
+  .material-switch > input[type="checkbox"]:checked + label::before {
+    background: inherit;
+    opacity: 0.5;
+  }
+  .material-switch > input[type="checkbox"]:checked + label::after {
+    background: inherit;
+    left: 20px;
+  }
+  @media (min-width: 992px){
+.modal-w1200 {
+    max-width: 1200px;
+}
+}
+.scroll-to-top {
+    z-index: 9999;
+}
+div.dataTables_wrapper div.dataTables_processing {
+    background-color: #222d32;
+    color: white;
+}
+#wrapper #content-wrapper {
+    background-color: #ffffff;
+}
+.daterangepicker {
+    background-color: #d7dcf7;
+}
+.sidebar-dark .nav-item.active .nav-link {
+    color: #fff;
+    background-color: #525bc1;
+}
+.nav-custom{
+    border: 1px solid #c4c3c3;
+}
+.sidebar-dark .nav-item .nav-link i {
+    color: rgb(115, 101, 101);
+}
+.sidebar-dark .nav-item .nav-link:active, .sidebar-dark .nav-item .nav-link:focus, .sidebar-dark .nav-item .nav-link:hover {
+    color: #0281a7;
+}
+.sidebar-dark .nav-item .nav-link:active i, .sidebar-dark .nav-item .nav-link:focus i, .sidebar-dark .nav-item .nav-link:hover i {
+    color: #6e818c;
+}
+.sidebar .nav-item .collapse .collapse-inner .collapse-item, .sidebar .nav-item .collapsing .collapse-inner .collapse-item {
+    padding: .2rem 1rem;
+    margin: 0 .5rem;
+    display: block;
+    color: #3a3b45;
+    text-decoration: none;
+    border-radius: .35rem;
+    white-space: nowrap;
+}
+.sidebar .nav-item .collapse .collapse-inner, .sidebar .nav-item .collapsing .collapse-inner {
+    padding: .5rem 0;
+    min-width: 10rem;
+    font-size: .75rem;
+    margin: 0 0 1rem 0;
+}
+.readonly{
+    background: #dddddd;
+}
+/* .nav-bar-custom{
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+} */
+.sidebar-custom{
+    min-height: 100vh;
+}
+.navbar-width-custom{
+    width: 65rem;
+}
+.navbar-navtop {
+    overflow: hidden;
+    background-color: #333;
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+  }
+  .navbar-navtop a {
+    /* float: left; */
+    /* display: block; */
+    color: #f2f2f2;
+    /* text-align: center; */
+    padding: 12px 5px;
+    text-decoration: none;
+    /* font-size: 17px; 
+    */
+  }
+  .navbar-navtop a:hover {
+    background: #ddd;
+    color: black;
+  }
